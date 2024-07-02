@@ -10,4 +10,10 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'remoteapp2';
+  public counter=0;
+
+  counterbuttonclick() {
+   this.counter +=1;
+
+  }
 }
